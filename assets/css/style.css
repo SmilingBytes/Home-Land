@@ -16,7 +16,6 @@ brand color: #b40101  with hover color: #810101
 :root {
   --prime_color: #b40101;
   --secondary_color: #ececec;
-  --bg_light: #ddf8ff;
   --header_color: #b40101;
 }
 * {
@@ -43,7 +42,7 @@ img {
   background: linear-gradient(-45deg, #B9E3EF, #DFEDCE);
 }
 .bg-1 {
-  background: var(--bg_light) !important;
+  background: linear-gradient(#cd0101, #9b0101) top/200% no-repeat !important;
 }
 .bg-white-gray {
   background: #f7f9fb;
@@ -56,6 +55,9 @@ img {
 }
 .fs22 {
   font-size: 22px;
+}
+.txt-shadow{
+  text-shadow: 1px 4px 4px #795548;
 }
 .brand-text-pre {
   color: var(--header_color) !important;
