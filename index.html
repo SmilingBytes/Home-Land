@@ -24,49 +24,43 @@
 </head>
 
 <body>
-    <!-- Top Nav Menu and Logo container -->
-    <header class="main_h">
+    <nav class="navbar py-1 navbar-expand-lg navbar-dark bg-dark justify-content-between sticky-top">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-auto">
-                    <a class="logo" href="#"><img src="assets/images/logo.png" alt="Series Code" class="logo-top"></a>
-                </div>
-                <div class="col ml-auto">
-                    <div class="mobile-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="#">Advanced Search</a></li>
-                            <li><a href="#">Buying or Selling</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Market Reports</a></li>
-                            <li><a href="#">Foreclosures</a></li>
-                            <li><a href="#"><i class="fa fa-envelope fa-2x"></i></a></li>
-                            <li><a href="#"><i class="fa fa-phone fa-2x"></i></a></li>
-                            <li><a href="#"><i class="fa fa-user fa-2x"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <a class="navbar-brand py-0 logo" href="#"><img src="assets/images/logo.png" alt="LOGO" class="logo-top"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-right pr-3">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Advanced Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Buying or Selling</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Market Reports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Foreclosures</a></li>
+                    <li class="nav-item d-inline-flex ml-auto">
+                        <a class="nav-link" href="#"><i class="fa fa-envelope fa-2x"></i></a>
+                        <a class="nav-link mx-4 mx-lg-0" href="#"><i class="fa fa-phone fa-2x"></i></a>
+                        <a class="nav-link" href="#"><i class="fa fa-user fa-2x"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-
-
+    </nav>
+   
     <!-- Hero section -->
-    <section id="hero" class="bg-white-gray pt-5 pt-sm-3 pt-md-0">
+    <section id="hero" class="bg-white-gray pt-5 pt-sm-3 pt-lg-0">
         <div class="container">
-            <div class="row align-items-center justify-content-center full-height">
-                <div class="col-12 col-md-6 px-3 text-center text-md-left order-2 order-md-1">
-                    <h2 class="hero_title pt-5 pt-md-0 text-center text-md-left" data-aos="zoom-in-right">Welcome to the <br class="d-none d-sm-block">
+            <div class="row align-items-start align-items-lg-center justify-content-center full-height">
+                <div class="col-12 col-md-7 col-lg-auto px-3 text-center text-md-left order-2 order-md-1">
+                    <h2 class="hero_title pt-3 pt-lg-0 text-center text-md-left" data-aos="zoom-in-right">Welcome to the <br class="d-none d-sm-block">
                         <span class="brand-text-post">Premier Choice Team</span>'s <br class="d-none d-sm-block">Agent finder service.</h2>
                     <a href="#" class="btn btn-primary button btn_cta mt-3">Get started</a>
                 </div>
-                <div class="col-12 col-md-5 order-1 order-md-2">
-                    <img data-aos="zoom-out-down" src="assets/images/hero.svg" alt="Hero-images" class="hero-img img-fluid" />
+                <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2">
+                    <img data-aos="zoom-out-down" src="assets/images/hero-img.svg" alt="Hero-images" class="hero-img img-fluid pt-3 pt-lg-0" />
                 </div>
             </div>
             <div class="row d-none d-lg-flex">
@@ -85,19 +79,18 @@
                 </div>
                 <div class="col-12 col-md-5 px-3 text-center text-md-left">
                     <!-- <h2 class="hero_title mb-3 text-center text-md-left">Who we are?</h2> -->
-                    <p class="hero_slogan pr-3" data-aos="zoom-in-up" data-aos-delay="100">If you are planning to <span class="brand-text-post">buy or sell</span> a home anywhere in the <span class="brand-text-pre">United States</span>, we offer our free service to connect you with a top-rated agent and give you a <span class="brand-text-post">$300 Amazon gift card</span> when you buy or sell your home.</p>
-                    <a href="#" class="btn btn-primary button btn_cta mt-3" data-aos="zoom-in-up" data-aos-delay="150">Contact Us</a>
+                    <p class="hero_slogan pr-3" data-aos="zoom-in-up" data-aos-delay="100">If you are planning to <span class="brand-text-post">buy or sell</span> a home anywhere in the <strong>United States</strong>, we offer our free service to connect you with a top-rated agent and give you a <span class="brand-text-post">$300 Amazon gift card</span> when you buy or sell your home.</p>
+                    <a href="#" class="btn btn-primary button btn_cta mt-3" data-aos="zoom-in-up" data-aos-delay="150">Buy/Sell Your Home</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- END About section -->
-
     <section id="know" class="py-5 bg-dark">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-10">
-                    <img src="assets/images/weblu_leaf.svg" data-aos="zoom-in-up" data-aos-delay="100" alt="" class="decoration img-fluid float-left mr-4 d-none d-md-inline-block" style="max-width:100px;">
+                    <img src="assets/images/weblu_leaf.svg" alt="Did you know" data-aos="zoom-in-up" data-aos-delay="200" class="decoration img-fluid float-left mr-4 d-none d-md-inline-block" style="max-width:100px;">
                     <h4 class="hero_slogan text-warning" data-aos="fade-up" data-aos-delay="100">Did you know?</h4>
                     <p class="hero_slogan text-white" data-aos="zoom-in-up" data-aos-delay="200">Having a real estate agent help you buy a home is free to you? <br class="d-none d-md-block"> Real estate agents get paid by the seller.&nbsp;</p>
                 </div>
@@ -105,7 +98,7 @@
         </div>
     </section>
     <!-- Service section -->
-    <section id="service" class="bg-grad1 d-md-none">
+    <section id="service" class="bg-grad-1 d-md-none">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -192,7 +185,7 @@
         </div>
     </section>
     <!-- process -->
-    <!-- :: Confused? call us section -->
+    <!-- :: call us section -->
     <section id="section-cta" class="bg-white-gray py-5">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -214,7 +207,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer-links text-left text-md-center pt-5">
-                        <ul class="footer-list">
+                        <ul class="footer-list mx-4">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Contact</a></li>
                             <li><a href="#">FAQ</a></li>
@@ -252,17 +245,6 @@
     var controller = new ScrollMagic.Controller();
     </script>
     <script src="assets/js/index.js"></script>
-    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-12345678-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    -->
 </body>
 
 </html>
