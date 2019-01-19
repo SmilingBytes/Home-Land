@@ -2,8 +2,8 @@
 AOS.init({
     disable: window.innerWidth < 1024,
     duration: 600,
-    easing: 'ease-out'
-    // once: true
+    easing: 'ease-out',
+    once: true
 });
 
 // sm Animation
